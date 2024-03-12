@@ -1,4 +1,7 @@
-# Miau Test #
+# Whisper AI Transkript -> Feedback Tool als Moodle Plugin #
+
+DISCLAIMER: Dieses Plugin funktioniert aktuell nur mit dem Custom Backend Repo, welches auch unter https://github.com/RUB-bschkuhl zu finden ist.
+Tests mit Whisper-cpp compiled für Apple Silicon ANE 
 
 TODO Describe the plugin shortly here.
 
@@ -42,5 +45,3 @@ PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along with
 this program.  If not, see <https://www.gnu.org/licenses/>.
-# slack-whisper-moodle-local
-# slack-whisper-moodle-local
