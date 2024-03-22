@@ -1,11 +1,7 @@
 # Whisper AI Transkript -> Feedback Tool als Moodle Plugin #
 
 DISCLAIMER: Dieses Plugin funktioniert aktuell nur mit dem Custom Backend Repo, welches auch unter https://github.com/RUB-bschkuhl zu finden ist.
-Tests mit Whisper-cpp compiled für Apple Silicon ANE 
-
-TODO Describe the plugin shortly here.
-
-TODO Provide more detailed description here.
+Bitte außerdem beachten: Die urls in miau.php sind anzupassen. Suche Code Kommentar '#URL ANPASSEN'
 
 ## Installing via uploaded ZIP file ##
 
