@@ -300,6 +300,7 @@ Input:
 
         suggestionButton.addEventListener('click', async () => {
             const promptText = document.getElementById('prompt').value;
+            //#URL ANPASSEN
             const response = await fetch('http://127.0.0.1:8083/generate-suggestionsgpt3', {
                 method: 'POST',
                 headers: {
@@ -315,6 +316,7 @@ Input:
 
         suggestionButtonGPT4.addEventListener('click', async () => {
             const promptText = document.getElementById('prompt').value;
+            //#URL ANPASSEN
             const response = await fetch('http://127.0.0.1:8083/generate-suggestionsgpt4', {
                 method: 'POST',
                 headers: {
@@ -347,6 +349,7 @@ Input:
 
             suggestionButtonLocal.addEventListener('click', async () => {
             const promptText = document.getElementById('prompt').value;
+            //#URL ANPASSEN
             const response = await fetch('http://127.0.0.1:8083/generate_suggestions_local', {
                 method: 'POST',
                 headers: {
@@ -371,7 +374,7 @@ Input:
                         const audioBlob = event.data;
                         const formData = new FormData();
                         formData.append('audio', audioBlob);
-
+                        //#URL ANPASSEN
                         const response = await fetch('http://127.0.0.1:8083/process-audio', {
                             method: 'POST',
                             body: formData
